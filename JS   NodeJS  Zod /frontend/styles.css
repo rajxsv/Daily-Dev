@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(158, 255, 245);
+}
+
+div {
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    background-color: rgb(254, 254, 254);
+    color: aliceblue;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 227, 227);
+    color: black;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(214, 242, 255);
+    color: black;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+p {
+    background-color: rgb(255, 216, 223);
+    color: black;
+    padding: 3rem;
+    border-radius: 2rem;
+    font-size: 25px;
+}
+
+button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;    
+    padding: 10px 20px 10px 20px;
+    border-radius: 1rem;
+    background-color: rgb(44, 111, 255);
+    color: white;
+    border-color: rgb(44, 111, 255);
+    font-size: 50px;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+
+nav {
+    background-color: rgb(158, 255, 245);
+    font-size: 20px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
